@@ -1,0 +1,58 @@
+*{
+    margin-top: 5px;
+}
+
+body{
+    background-image: url("channel-8.jpeg") ;
+}
+
+.head{
+ text-align: center;
+ background-color: red;
+ color: white;
+ 
+}
+.normal{
+    flex-direction: column;
+}
+
+.head ul{
+    margin-left: 15px;
+    font-size: 15px;
+    padding: 10px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+
+.head ul li:hover,.active{
+   background-color: black;
+   color: white;
+}
+.head ul li:hover .dropdown{
+    display: block;
+    position:absolute;
+    margin-top: 10px;
+    margin-left: 15px;
+    background-color: black;
+    color: white;
+}
+.head ul li:hover .dropdown ul{
+    display: block;
+    text-decoration: underline;
+    /* position:absolute; */ 
+    /* margin: 1px ; */
+ 
+
+}
+.dropdown{
+    display: none;
+    color: black;
+}
+
+body{
+    background-image: url("channel-pictures/channel-8.jpeg");
+}
+
